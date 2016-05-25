@@ -1,3 +1,3 @@
 $(function(){
-    //$('#iframeTag').height(screen.height);
+    $('#iframeTag').height(screen.height);
 });
