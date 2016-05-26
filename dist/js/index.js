@@ -1,3 +1,5 @@
 function testFn(){
-    console.log('haha');
+    console.log('ouye');
+    console.log('ouye');
+    console.log('ouye');
 }
