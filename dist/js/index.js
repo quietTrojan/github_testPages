@@ -1,4 +1,3 @@
 $(function(){
-    alert(window.innerWidth);
-    alert(screen.width);
+    console.log('nihao');
 })
