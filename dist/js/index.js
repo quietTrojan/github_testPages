@@ -1,3 +1,3 @@
 $(function(){
-    console.log('你好');
+    console.log('呵呵呵呵');
 })
