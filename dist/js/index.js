@@ -1,3 +1,3 @@
 $(function(){
-    console.log('dddd');
+    console.log('你好');
 })
