@@ -1,3 +1,3 @@
 $(function(){
-    console.log('nihao');
+    console.log('安静的木马');
 })
