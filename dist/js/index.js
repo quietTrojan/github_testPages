@@ -1,3 +1,3 @@
 $(function(){
-    console.log('安静的木马');
+    console.log('dddd');
 })
