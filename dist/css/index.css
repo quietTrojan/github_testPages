@@ -1,4 +1,3 @@
-.index_body iframe {
-  width: 100%;
-  border: none;
+.index_body span {
+  font-size: 14px;
 }
