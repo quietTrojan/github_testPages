@@ -1,5 +1,11 @@
 $(function(){
-    $('#mainBox div').addClass(function(){
-        return 'myClass'+$(this).index()+' newClass';
+    var headerScroll=new IScroll('#iscroll_header',{
+        scrollX:true,
+        scrollY:false,
+        bounce:false,
+        tap:true
+    });
+    $('#iscrollUl').on('tap','li',function(){
+        alert($(this).text());
     });
 })

@@ -2,16 +2,29 @@
   padding: 0px;
   margin: 0px;
 }
-.index_body .mainBox {
-  width: 960px;
-  margin: 20px auto;
+.index_body .iscroll_header {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  height: 40px;
+  background-color: #3D3D4A;
 }
-.index_body .mainBox div {
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  float: left;
-  font-size: 40px;
-  color: #000;
-  text-align: center;
+.index_body .iscroll_header .iscrollUl {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-size: 0px;
+  white-space: nowrap;
+}
+.index_body .iscroll_header .iscrollUl li {
+  line-height: 40px;
+  margin-left: 20px;
+  font-size: 14px;
+  height: 40px;
+  display: inline-block;
+  vertical-align: top;
+  color: #ffffff;
+}
+.index_body .iscroll_header .iscrollUl li:first-child {
+  margin-left: 10px;
 }
