@@ -1,5 +1,5 @@
 $(function(){
-    $('#inputTag').on('click',function(event){
+    $('#inputTag').on('focus',function(event){
         event.preventDefault();
     });
 });
