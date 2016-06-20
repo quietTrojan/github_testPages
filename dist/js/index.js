@@ -8,4 +8,4 @@ $(function(){
     $('#iscrollUl').on('tap','li',function(){
         alert($(this).text());
     });
-})
+});

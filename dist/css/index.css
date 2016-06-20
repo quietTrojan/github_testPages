@@ -1,31 +1,11 @@
 .index_body * {
-  padding: 0px;
   margin: 0px;
+  padding: 0px;
 }
-.index_body .iscroll_header {
-  position: relative;
-  left: 0px;
-  top: 0px;
+.index_body .inputTag {
+  border: 1px solid #c8c8c8;
   height: 40px;
-  background-color: #3D3D4A;
-  width: 100%;
-}
-.index_body .iscroll_header .iscrollUl {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  font-size: 0px;
-  white-space: nowrap;
-}
-.index_body .iscroll_header .iscrollUl li {
-  line-height: 40px;
-  margin-left: 20px;
-  font-size: 14px;
-  height: 40px;
-  display: inline-block;
-  vertical-align: top;
-  color: #ffffff;
-}
-.index_body .iscroll_header .iscrollUl li:first-child {
-  margin-left: 10px;
+  width: 200px;
+  display: block;
+  margin: 20px auto;
 }
