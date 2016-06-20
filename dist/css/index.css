@@ -9,3 +9,6 @@
   display: block;
   margin: 20px auto;
 }
+.index_body .ime-disabled {
+  ime-mode: disabled;
+}
