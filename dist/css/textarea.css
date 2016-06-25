@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    margi:0px;
+}
+.testTextarea{
+    border:1px solid #3F4251;
+    outline: none;
+    display: block;
+    width:80%;
+    resize: none;
+    margin:20px auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
