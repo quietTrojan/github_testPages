@@ -554,7 +554,7 @@ IScroll.prototype = {
 
 		this.scrollTo(newX, newY);	// ensures that the last position is rounded
 
-		// we scrolled less than 10 pixels
+		// we scrolled sass than 10 pixels
 		if ( !this.moved ) {
 			if ( this.options.tap ) {
 				utils.tap(e, this.options.tap);

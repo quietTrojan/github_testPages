@@ -1,14 +1,15 @@
 .index_body * {
   margin: 0px;
-  padding: 0px;
-}
+  padding: 0px; }
+
 .index_body .inputTag {
   border: 1px solid #c8c8c8;
   height: 40px;
   width: 200px;
   display: block;
-  margin: 20px auto;
-}
+  margin: 20px auto; }
+
 .index_body .ime-disabled {
-  ime-mode: disabled;
-}
+  ime-mode: disabled; }
+
+/*# sourceMappingURL=src/maps/index.css.map */

@@ -1,11 +1,13 @@
 var gulp = require('gulp'); //本地安装gulp所用到的地方
 var less = require('gulp-less');
+var sass = require('gulp-sass');
 var concat = require('gulp-concat');
 var imagemin = require('gulp-imagemin');
 var pngquant = require('imagemin-pngquant');
 var prefix = require('gulp-autoprefixer');
 var fileinclude = require('gulp-file-include');
 var styleInject = require("gulp-style-inject");
+var sourcemaps = require('gulp-sourcemaps');
 
 function handleError(err) {
     console.log(err.toString());
@@ -13,10 +15,12 @@ function handleError(err) {
 }
 
 //定义一个testLess任务（自定义任务名称）
-gulp.task('less_css', function () {
-    return gulp.src(['src/less/**/*','!src/less/reuseClass.less']) //该任务针对的文件
-        .pipe(less()).on('error', handleError)
+gulp.task('sass_css', function () {
+    return gulp.src(['src/sass/**/*.scss','!src/sass/reuseClass.scss']) //该任务针对的文件
+        .pipe(sourcemaps.init())
+        .pipe(sass()).on('error', handleError)
         .pipe(prefix()).on('error', handleError)
+        .pipe(sourcemaps.write('src/maps/'))
         .pipe(gulp.dest('dist/css/'));
     console.log('less编译',new Date().getTime());
 });
