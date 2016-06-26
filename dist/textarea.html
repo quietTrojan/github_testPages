@@ -19,7 +19,13 @@
 <body>
 <textarea id="textarea" placeholder="回复内容" class="testTextarea"></textarea>
 <script type="text/javascript">
-    autosize(document.getElementById('textarea'));
+    var textarea=document.getElementById('textarea');
+    autosize(textarea);
+//    autosize.destroy(document.getElementById('textarea'));
+//    autosize.update(document.getElementById('textarea'));
+    textarea.addEventListener('autosize:resized', function(){
+        console.log('textarea height updated');
+    });
 </script>
 </body>
 </html>
